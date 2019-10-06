@@ -1,0 +1,13 @@
+[06-Apr-2019 20:11:03 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/cbli5mcpac7a/public_html/mail/contact_me.php on line 2
+[06-Apr-2019 20:11:03 UTC] PHP Warning:  require_once(ABSPATHwp-includes/pluggable.php): failed to open stream: No such file or directory in /home/cbli5mcpac7a/public_html/mail/contact_me.php on line 2
+[06-Apr-2019 20:11:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-includes/pluggable.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/cbli5mcpac7a/public_html/mail/contact_me.php on line 2
+[06-Apr-2019 20:19:09 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/cbli5mcpac7a/public_html/mail/contact_me.php on line 2
+[06-Apr-2019 20:19:09 UTC] PHP Warning:  require_once(ABSPATH../wp-includes/pluggable.php): failed to open stream: No such file or directory in /home/cbli5mcpac7a/public_html/mail/contact_me.php on line 2
+[06-Apr-2019 20:19:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATH../wp-includes/pluggable.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/cbli5mcpac7a/public_html/mail/contact_me.php on line 2
+[06-Apr-2019 20:20:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/cbli5mcpac7a/public_html/wp-includes/pluggable.php:186
+Stack trace:
+#0 /home/cbli5mcpac7a/public_html/mail/contact_me.php(3): wp_mail('waterflame99@gm...', 'Email Subject t...', 'this is a test')
+#1 {main}
+  thrown in /home/cbli5mcpac7a/public_html/wp-includes/pluggable.php on line 186
+[06-Apr-2019 20:40:35 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/cbli5mcpac7a/public_html/mail/contact_me.php on line 5
+[06-Apr-2019 20:50:35 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/cbli5mcpac7a/public_html/mail/contact_me.php on line 9

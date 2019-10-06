@@ -1,0 +1,3 @@
+[08-Jun-2019 19:33:37 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/cbli5mcpac7a/public_html/wp-settings.php on line 19
+[08-Jun-2019 19:33:37 UTC] PHP Warning:  require(ABSPATHwp-includes/load.php): failed to open stream: No such file or directory in /home/cbli5mcpac7a/public_html/wp-settings.php on line 19
+[08-Jun-2019 19:33:37 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/cbli5mcpac7a/public_html/wp-settings.php on line 19
