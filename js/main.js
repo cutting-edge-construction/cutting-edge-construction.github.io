@@ -91,12 +91,15 @@ var v = new Vue({
 
 	  this.bgPos = Math.floor(Math.random() * 3) + 0  
 	  //wait a bit and then preload images
+	  var self = this
 	  setTimeout(function () {
-		for (var i = 0; i < this.examples.length; i++){
+		console.log("performing initial load")
+		for (var i = 0; i < self.examples.length; i++){
 			//console.log(this.examples[i].title)
-			this.loadMore(this.examples[i])		
+			
+			self.loadMore(self.examples[i])		
 		}
-	  }, 4000)
+	  }, 3500)
   },
 })
 
