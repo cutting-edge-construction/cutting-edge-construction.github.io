@@ -90,7 +90,7 @@ var v = new Vue({
   beforeMount(){
   	for (var i = 0; i < this.examples.length; i++){
   		//console.log(this.examples[i].title)
-  		this.loadMore(this.examples[i])
+  		//this.loadMore(this.examples[i])
   			
   	}
   	this.bgPos = Math.floor(Math.random() * 3) + 0  
